@@ -1,0 +1,131 @@
+body{
+    /* background-color:rgb(196, 149, 49); */
+    background-color: rgb(209, 209, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Burger menu knop */
+.burger-menu-btn{
+    background-color: violet;
+    width: 100px;
+    height: 100%;
+    background-image:url(/img/menu-foto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    cursor: pointer;
+}
+
+.burger-menu-btn:active{
+    background-color: rgb(170, 18, 18);
+}
+
+/* Burger menu style & Kleuren optie link's */
+.burger-menu-list {
+    background-color: gray;
+    position: fixed;
+    top: 100px;
+    width: 100px;
+    transition: 250ms ease-in-out;
+    border: 1px solid #656565;;
+    border-top: 0px solid;
+}
+.burger-menu-list ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    visibility:hidden;
+}
+.burger-menu-list ul li{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+
+.burger-menu-list ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.burger-menu-radio{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.burger-menu-link-backColor-blue{
+    background-color: blue ;
+    color: rgb(0, 0, 0);
+    transition: 250ms ease-in-out;
+}
+
+.burger-menu-link-backColor-red{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    
+}
+
+.burger-menu-link-backColor-yellow{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+
+}
+.burger-menu-link-backColor-orangered{
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+}
+.burger-menu-link-backColor-pink{
+    background-color: pink;
+    color: rgb(0, 0, 0);
+}
+
+/* Hoofd menu balk (Home -Nieuws -Blog -Article - Contact) */
+.main-nav{
+    background-color: rgb(80, 146, 184);
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.main-menu ul{
+    display: flex;
+    list-style: none;
+    line-height: 60px;
+}
+.main-menu ul li{
+    margin-right: 10px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+/* Javascript kleur Tongle = kleuren Body element veranderen. (menu links) */
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.orangered{
+    background-color: orangered;
+}
+.pink{
+    background-color: pink;
+}
+
+.blue-radio{
+    width: 100%;
+}
